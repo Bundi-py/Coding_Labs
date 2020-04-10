@@ -1,7 +1,4 @@
-# Python Programming
-
-Here you can find the labs for our CodingNomads online Python Programming course.
-
+# Python Programming / Adding some text - Branko
 ---
 
 ## Push me to your GitHub
