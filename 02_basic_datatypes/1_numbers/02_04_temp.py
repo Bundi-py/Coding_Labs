@@ -10,3 +10,7 @@ Output should read like - "81.32 degrees fahrenheit = 27.4 degrees celsius"
 
 
 '''
+
+far = input('Enter temperature in Fahrenheit: ')
+cel = round((int(far) - 32) * (5/9), 1)
+print(f'It is {cel} degrees Celsius.')

@@ -7,3 +7,6 @@ Letter input: o
 Result: 4
 
 '''
+sentence = (input('Enter a sentence: '))
+symbol = (input('Enter a letter from the sentence: '))
+print('Result: ', sentence.find(symbol))

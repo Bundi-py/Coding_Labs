@@ -7,4 +7,6 @@ Symbol input: #
 Result: #ore python progra##ing please
 
 '''
-
+sentence = (input('Enter a sentence: ')).lower()
+symbol = (input('Enter a symbol: '))
+sentence.replace(sentence[0], symbol)
