@@ -9,3 +9,14 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+lista = []
+for i in range(10):
+    lista.append(input('Enter a number: '))
+print('The largest number is:', max(lista))
+
+##########
+
+product = 1
+for n in lista:
+    product *= int(n)
+print('Product of numbers in the list is:', product)
