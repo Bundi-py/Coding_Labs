@@ -11,3 +11,8 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+input = [0, 1, 2, 3, 4]
+
+N = 2
+res = tuple(input[i: i + N] for i in range(0, len(input), 2))
+print(res)
