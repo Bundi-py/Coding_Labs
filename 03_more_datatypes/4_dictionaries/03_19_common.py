@@ -11,3 +11,15 @@ dict_2 = {"a": 2, "c": 4 , "d": 2}
 result = {"a": 3, "b": 2, "c": 7 , "d": 2}
 
 '''
+dict_1 = {"a": 1, "b": 2, "c": 3}
+dict_2 = {"a": 2, "c": 4, "d": 2}
+
+result = dict_2
+
+for i in dict_1:
+    if i in result:
+        result[i] += dict_1[i]
+    else:
+        result[i] = dict_1[i]
+
+print('result =', result)
