@@ -8,3 +8,23 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+a = -1
+while a < 9:
+    a += 1
+    print(a, end=' ')
+print('\n')
+while a < 19:
+    a += 1
+    print(a, end=' ')
+print('\n')
+while a < 29:
+    a += 1
+    print(a, end=' ')
+print('\n')
+while a < 39:
+    a += 1
+    print(a, end=' ')
+print('\n')
+while a < 49:
+    a += 1
+    print(a, end=' ')
