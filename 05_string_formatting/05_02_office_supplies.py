@@ -25,3 +25,9 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+ind = 0
+for i in office:
+    print(
+        f"Name: {office[ind]['full_name']}'s favourite supply is {office[ind]['item']}.")
+    ind += 1
